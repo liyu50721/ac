@@ -1,0 +1,76 @@
+/* CSS styles for the profile webpage */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #EFEFEF; /* Updated webpage background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+h1 {
+text-align: center;
+}
+
+.description {
+margin-bottom: 30px;
+font-size: 20px;
+}
+
+.description ul {
+list-style-type: none;
+padding: 0;
+}
+
+.description li {
+text-align: left;
+padding-left: 20px;
+position: relative;
+}
+
+.description li::before {
+content: "\2022"; /* Bullet point character */
+position: absolute;
+left: 0;
+}
+
+.seasons {
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.season {
+padding: 20px;
+text-align: center;
+width: 600px; /* Updated width for the season blocks */
+margin: 0 auto; /* Center the season blocks horizontally */
+}
+
+.spring {
+background-color: #B9E6B3; /* Spring color */
+}
+
+.summer {
+background-color: #FFEFB3; /* Summer color */
+}
+
+.autumn {
+background-color: #FFB366; /* Autumn color */
+}
+
+.winter {
+background-color: #B3E2FF; /* Winter color */
+}
+
+video {
+width: 100%;
+}
+
+img {
+max-width: 100%;
+height: auto;
+
+    }
